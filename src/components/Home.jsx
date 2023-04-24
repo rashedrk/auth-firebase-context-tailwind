@@ -9,7 +9,7 @@ const Home = () => {
         <div>
             <h2>This is HOme</h2>
             {
-                user && <span>{user}</span>
+                user && <span>{user.email}</span>
             }
         </div>
     );
